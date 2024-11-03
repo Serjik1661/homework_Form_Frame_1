@@ -1,0 +1,68 @@
+body{
+    background-color: aqua;
+}
+input[type="text"]{
+    padding: 5px;
+}
+.valid{
+    background-image: url("./img/crest.svg");
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size: 20px;
+    border-color: green;
+    outline-color: green;
+    color: green;
+  }
+.invalid{
+    background-image: url("./img/cross.svg");
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size: 20px;
+    color: red;
+    border-color: red;
+    outline-color: red;
+  }
+input[type='button']{
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.active{
+    background-color: rgb(73, 150, 73);
+}
+.hover_1{
+    background-color: green;
+}
+.danger{
+    background-color: rgb(151, 62, 62);
+}
+.hover_2{
+    background-color: brown;
+}
+.disabled{
+    background-color: rgb(109, 109, 86);
+}
+.plus[type=button]{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: green;
+}
+.minus[type=button]{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: red;
+}
+.hover_1:hover{
+    opacity: 0.5;
+}
+.hover_2:hover{
+    opacity: 0.4;
+}
+.textArea{
+    width: 400px;
+    height: 100px;
+}
